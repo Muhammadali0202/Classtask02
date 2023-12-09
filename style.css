@@ -1,0 +1,50 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#nav {
+  background-color: darkslategray;
+  color: white;
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#items {
+  display: flexbox;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding-right: 10px;
+}
+a {
+  color: white;
+}
+button {
+  color: black;
+  background-color: black;
+}
+
+#Welcome {
+  display: flexbox;
+  background-color: darkcyan;
+  text-align: center;
+}
+
+#features {
+  display: flexbox;
+  text-align: center;
+  background-color: bisque;
+}
+#Aboutus {
+  display: flexbox;
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+}
+
+#Contactus {
+  display: flexbox;
+  text-align: center;
+  background-color: aliceblue;
+}
